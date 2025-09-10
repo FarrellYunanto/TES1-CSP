@@ -38,11 +38,11 @@ function UserCard({ name, email, phone, address, isSelected, onSelect }) {
       </div>
 
       <p style={infoRow}>
-        <span style={labelStyle}>📞 Phone:</span> {phone}
+        <span style={labelStyle}> Phone:</span> {phone}
       </p>
 
       <p style={infoRow}>
-        <span style={labelStyle}>🏠 City:</span> {address}
+        <span style={labelStyle}> City:</span> {address}
       </p>
     </div>
   );
