@@ -30,7 +30,7 @@ function UserCard({ name, email, phone, address, isSelected, onSelect }) {
       style={cardStyle}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={onSelect} // select this card
+      onClick={onSelect}
     >
       <div>
         <h2 style={nameStyle}>{name}</h2>
